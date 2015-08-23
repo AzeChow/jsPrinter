@@ -1,0 +1,53 @@
+#nothing{
+	position: fixed;
+	width: auto;
+	height: 38px;
+	background: #fff;
+	border: 1px solid #0078d7;
+	display: none;
+	z-index: 1;
+}
+#nothing .block{
+	padding: 0px 15px;
+	height: 38px;
+	float: left;
+	line-height: 38px;
+	margin: 0px;
+	cursor: pointer;
+}
+#nothing .block:hover{
+	background: #A6D8FF;
+}
+#nothing .frist,#nothing .frist:hover{
+	background: #0078d7;
+	color:#fff;
+}
+#nothing .block span{
+	font-family:  "Microsoft Yahei";
+	font-size: 15px;
+}
+#nothing .block span.num{
+	font-size: 13px;
+	color: #999;
+	padding: 5px;
+}
+#nothing .block:hover span.num{
+	color: #000;
+}
+#nothing .frist span.num,#nothing .frist:hover span.num{
+	color: #fff;
+}
+
+
+.cursor {
+	font-family: sans-serif;
+}
+.blink{
+	animation: cursor 1.25s infinite steps(1, start);
+}
+@keyframes cursor{
+  0%{opacity: 1;}
+  50%{opacity: 1;}
+  50.1%{opacity: 0;}
+  100%{opacity: 0;} 
+}

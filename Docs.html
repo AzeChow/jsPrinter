@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的首页 微博-随时随地发现新鲜事</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="./css/printer.css">
+</head>
+<body>
+	<div id="header">
+		<div id="title">
+			<div class="title-name font-WRYH">文档1 - Word (试用版)</div>
+			<div class="title-left">
+				<div class="t-button">
+					<span class="icon save title-button"></span>
+				</div>
+				<div class="t-button">
+					<span class="icon goback title-button"></span>
+				</div>
+				<div class="t-button">
+					<span class="icon tonext title-button"></span>
+				</div>
+				<div class="t-button">
+					<span class="icon dropall title-button"></span>
+				</div>
+			</div>
+			<div class="title-right">
+				<div class="t-button">
+					<span class="icon slide title-button"></span>
+				</div>
+				<div class="t-button">
+					<span class="icon getmin title-button"></span>
+				</div>
+				<div class="t-button">
+					<span class="icon getmax title-button"></span>
+				</div>
+				<div class="t-button red">
+					<span class="icon close title-button"></span>
+				</div>
+			</div>
+		</div>
+		<div id="tab-bar">
+			<ul class="tab">
+				<li >文件</li>
+				<li class="active">开始</li>
+				<li>插入</li>
+				<li>设计</li>
+				<li>布局</li>
+				<li>引用</li>
+				<li>邮件</li>
+				<li>审阅</li>
+				<li>视图</li>
+			</ul>
+		</div>
+
+		<div class="tab-content">
+			 <div class="tab-pane active" id="file">
+		 		<div class="option clipboard">
+		 			<div class="option-left detail-button" >
+		 				<span class="icon-big paste center"></span>
+		 				<div class="paste-drop detail-button">
+		 					<span class="text center active">粘贴</span>
+		 					<span class="icon-small drop-down center"></span>
+		 				</div>
+		 			</div>
+		 			<div class="option-right">
+		 				<div class="option-detail detail-button">
+		 					<span class="icon cut inline"></span>
+		 					<span class="text inline">剪切</span>
+		 				</div>
+		 				<div class="option-detail detail-button">
+		 					<span class="icon copy inline"></span>
+		 					<span class="text">复制</span>
+		 				</div>
+		 				<div class="option-detail detail-button">
+		 					<span class="icon format inline"></span>
+		 					<span class="text inline active">格式刷</span>
+		 				</div>
+		 			</div>
+		 			<div class="option-bottom">
+		 				<span class="right icon-small  option-drop detail-button"></span>
+		 				<span class="text center ">剪贴板</span>
+		 			</div>
+		 		</div>
+
+		 		<div class="option font">
+					<div class="option-top">
+						<div class="option-detail right-border">
+							<select class="inline">
+							    <option value="">微软雅黑</option>
+							    <option value="1">新增图片</option>
+							    <option value="2">维护图片</option>
+							    <option value="3">新增新闻</option>
+							</select>
+							<select class="inline font-size-small">
+							    <option value="">15</option>
+							    <option value="1">小六</option>
+							    <option value="2">六号</option>
+							</select>
+							<span class="icon inline font-plus detail-button"></span>
+							<span class="icon inline font-min detail-button"></span>
+						</div>
+						<div class="option-detail right-border">
+							<div class="option-button detail-button">
+								<span class="icon inline font-size"></span>
+								<span class="icon-small inline drop-down"></span>
+							</div>
+						</div>
+						<div class="option-detail">
+							<span class="icon inline clear-format detail-button"></span>
+							<span class="icon inline pinyin-guide detail-button"></span>
+							<span class="icon inline text-border detail-button"></span>
+						</div>
+						<div class="option-detail half right-border">
+							<span class="icon inline font-wight detail-button"></span>
+							<span class="icon inline font-italic detail-button"></span>
+							<div class="option-button detail-button">
+								<span class="icon inline font-underline"></span>
+								<span class="icon-small inline drop-down"></span>
+							</div>
+							<span class="icon inline font-delete detail-button"></span>
+							<span class="icon inline superscript detail-button"></span>
+							<span class="icon inline subscript detail-button"></span>
+						</div>
+						<div class="option-detail half" >
+							<div class="option-button detail-button">
+								<span class="icon inline font-style"></span>
+								<span class="icon-small inline drop-down"></span>
+							</div>
+							<div class="option-button detail-button">
+								<span class="icon inline font-marked"></span>
+								<span class="icon-small inline drop-down"></span>
+							</div>
+							<div class="option-button detail-button">
+								<span class="icon inline font-color"></span>
+								<span class="icon-small inline drop-down"></span>
+							</div>
+							<span class="icon inline font-background detail-button"></span>
+							<span class="icon inline font-singol detail-button"></span>
+
+						</div>
+					</div>
+		 			<div class="option-bottom">
+	 					<span class="right icon-small option-drop"></span>
+	 					<span class="text center">字体</span>
+		 			</div>
+		 		</div>
+
+
+		 		<div class="option format-option">
+					<div class="option-top">
+						<div class="option-detail right-border">
+							<div class="option-button detail-button">
+								<span class="icon inline detail-button ul-list"></span>
+								<span class="icon-small inline drop-down"></span>
+							</div>
+							<div class="option-button detail-button">
+								<span class="icon inline detail-button ol-list"></span>
+								<span class="icon-small inline drop-down"></span>
+							</div>
+							<div class="option-button detail-button">
+								<span class="icon inline detail-button tab-list"></span>
+								<span class="icon-small inline drop-down"></span>
+							</div>							
+						</div>
+						<div class="option-detail right-border">
+							<span class="icon inline detail-button left-text-indent"></span>
+							<span class="icon inline detail-button right-text-indent"></span>
+						</div>
+						<div class="option-detail right-border">
+							<div class="option-button detail-button">
+								<span class="icon inline font-width"></span>
+								<span class="icon-small inline drop-down"></span>
+							</div>
+						</div>
+						<div class="option-detail right-border">
+							<span class="icon sort inline detail-button"></span>
+						</div>
+						<div class="option-detail">
+							<span class="icon show-or-hidden inline detail-button"></span>
+						</div>
+						<div class="option-detail right-border half">
+							<span class="icon float-zuobian inline detail-button"></span>
+							<span class="icon float-center inline detail-button"></span>
+							<span class="icon float-right inline detail-button"></span>
+							<span class="icon float-both inline detail-button"></span>
+							<span class="icon float-disperse inline detail-button"></span>
+						</div>
+						<div class="option-detail half right-border">
+							<div class="option-button detail-button">
+								<span class="icon inline line-height"></span>
+								<span class="icon-small  inline drop-down"></span>
+							</div>
+						</div>
+						<div class="option-detail half">
+							<div class="option-button detail-button">
+								<span class="icon  inline background-texture"></span>
+								<span class="icon-small inline drop-down"></span>
+							</div>
+							<div class="option-button detail-button">
+								<span class="icon inline border-style"></span>
+								<span class="icon-small inline drop-down"></span>
+							</div>
+						</div>
+					</div>
+
+		 			<div class="option-bottom">
+	 					<span class="right icon-small option-drop"></span>
+	 					<span class="text center">段落</span>
+		 			</div>
+		 		</div>
+
+
+		 		<div class="option">
+					<div class="style-style">
+	 					<div class="style-block active">
+	 						<div class="style-top font-WRYH font-nomal">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="icon-small inline enter"></span>
+	 							<span class="text ">正文</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="style-block">
+	 						<div class="style-top font-WRYH font-nomal">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="icon-small inline enter"></span>
+	 							<span class="text">无间隔</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="style-block">
+	 						<div class="style-top font-WRYH bold font-size-smallplus">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="text">标题1</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="style-block">
+	 						<div class="style-top font-WRYH middle-bold font-nomal">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="text">标题2</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="style-block">
+	 						<div class="style-top font-WRYH middle-bold font-nomal">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="text">标题</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="style-block">
+	 						<div class="style-top font-WRYH bold font-nomal">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="text">副标题</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="style-block">
+	 						<div class="style-top font-WRYH italic font-nomal">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="text">不明显强调</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="style-block">
+	 						<div class="style-top font-WRYH italic middle-bold font-nomal">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="text">强调</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="style-block font-WRYH italic font-color-blue font-nomal">
+	 						<div class="style-top ">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="text">明显强调</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="style-block">
+	 						<div class="style-top font-WRYH bold font-nomal">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="text">要点</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="style-block">
+	 						<div class="style-top font-WRYH italic font-nomal">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="text">引用</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="style-block">
+	 						<div class="style-top font-WRYH italic font-color-blue font-nomal">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="text">明显引用</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="style-block">
+	 						<div class="style-top font-WRYH mini-bold font-nomal">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="text">不明显参考</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="style-block">
+	 						<div class="style-top font-WRYH middle-bold font-nomal font-color-blue">AaBbCcDd</div>
+	 						<div class="style-bottom">
+	 							<span class="text">明显参考</span>
+	 						</div>
+	 					</div>
+
+	 					<div class="option-button">
+	 						<span class="icon disabled drop-up"></span>
+	 						<span class="icon-small drop-down"></span>
+	 						<span class="icon drop-all"></span>
+	 					</div>
+	 				</div>
+
+		 			<div class="option-bottom">
+	 					<span class="right icon-small option-drop"></span>
+	 					<span class="text center">样式</span>
+		 			</div>
+		 		</div>
+
+				<div class="option style-option">
+					<div class="option-top">
+						<div class="option-detail detail-button">
+		 					<span class="icon inline search"></span>
+	 						<span class="text inline">查找</span>
+	 						<span class="icon-small inline drop-down"></span>
+		 				</div>
+		 				<div class="option-detail detail-button">
+		 					<span class="icon inline replace"></span>
+	 						<span class="text inline">替换</span>
+		 				</div>
+		 				<div class="option-detail detail-button">
+		 					<span class="icon inline select"></span>
+	 						<span class="text inline">选择</span>
+	 						<span class="icon-small inline drop-down"></span>
+	 					</div>
+		 			</div>
+
+		 			<div class="option-bottom">
+	 					<span class="right icon-small option-drop"></span>
+	 					<span class="text center">样式</span>
+		 			</div>
+		 		</div>
+			 </div>
+		</div>
+	</div>
+
+	<div id="content">
+		<div class="content-paper">
+			<div class="content-header">
+				<div class="left border-box">
+					<div class="show-border"></div>
+				</div>
+				<div class="right border-box">
+					<div class="show-border"></div>
+				</div>
+			</div>
+			<div class="input font-WRYH">
+				<div id="pinyin">
+				</div>
+				<div id="nothing"></div>
+			</div>
+			
+			<div class="content-bottom">
+				<div class="left border-box">
+					<div class="show-border"></div>
+				</div>
+				<div class="right border-box">
+					<div class="show-border"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="footer-left ">
+			<div class="footer-block  detail-button">
+				<span class="text ">第 1 页，共 1 页</span>
+			</div>
+			<div class="footer-block detail-button">
+				<span class="text" id="words-number">0 个字</span>
+			</div>
+			<div class="footer-block">
+				<span class="icon proofread detail-button"></span>
+			</div>
+			<div class="footer-block">
+				<span class="text">中文(中国)</span>
+			</div>
+		</div>
+		<div class="footer-right">
+			<div class="footer-block">
+				<span class="icon read-model detail-button"></span>
+			</div>
+			<div class="footer-block">
+				<span class="icon input-model detail-button"></span>
+			</div>
+			<div class="footer-block">
+				<span class="icon web-model detail-button"></span>
+			</div>
+			<div class="footer-block">
+				<span class="bold font-WRYH">-</span>
+				<input type="range" value="50" max="100">
+				<span class="bold font-WRYH">+</span>
+				<span class="text">100%</span>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./js/chinese.js"></script>
+	<script type="text/javascript" src="./js/printer.js"></script>
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+		    $('body').height($(window).height());
+		    $('#content').height($(window).height() - 180);
+		    
+		    $("#content").mCustomScrollbar({
+		        theme: "dark-2",
+		        scrollButtons: {
+		            enable: true,
+		            scrollSpeed: 40
+		        }
+		    });
+		    
+		    printer.init({
+		        string : " 孔乙己 是 站着 喝酒 而 穿长衫 的 唯一 的 人 。 他 身材 很 高大 ； 青白 脸色 ， 皱纹 间 时常 夹些 伤痕 ； 一部 乱蓬蓬 的 花白 的 胡子 。 穿的 虽然 是 长衫 ， 可是又脏又破 ， 似乎 十多年 没有补 ， 也没有洗 。 他 对人 说话 ， 总是 满口 之乎者也 ， 教人 半懂不懂的 。 因为 他姓孔 ， 别人 便从 描 红 纸 上的 “ 上 大人 孔乙己 ” 这 半懂不懂的 话里 ， 替他 取下 一个绰号 ， 叫作 孔乙己 。 孔乙己 一到店 ， 所有 喝酒的人 便都看着他笑 ， 有的叫道 ， “ 孔乙己 ， 你脸上 又添上 新伤疤 了 ！ ” 他不回答 ， 对 柜 里 说 ， “ 温 两碗酒 ， 要一碟 茴香豆 。 ” 便 排出 九文 大钱 。 他们 又故意的 高声 嚷道 ， “ 你一定 又偷了人家的东西了 ！ ” 孔乙己 睁大眼睛说 ， “ 你怎么这样 凭空 污人清白 …… ” “ 什么 清白 ？ 我 前天 亲眼 见你 偷了 何家 的书 ， 吊着打 。 ” 孔乙己 便 涨红了脸 ， 额上的 青筋 条条 绽出 ， 争辩道 ， “ 窃书 不能算偷 …… 窃书 ！ …… 读书人的事 ， 能算偷么 ？ ” 接连 便是 难懂 的话 ， 什么 “ 君子 固穷 ” ， 什么 “ 者乎 ” 之类 ， 引得 众人 都 哄笑起来 ： 店内外 充满了 快活 的空气 。 ",
+		        ID: "pinyin",
+		        curType: "|",
+		        inputDom: "nothing",
+		        showDom: "words-number",
+		        speed: 40
+		    });
+		    $('body').bind('keyup', function(event) {
+		        //回车执行查询
+		        if (event.keyCode == "13") {
+		            printer.print();
+		        }
+		    });
+
+		});
+	</script>
+</body>
+</html>
